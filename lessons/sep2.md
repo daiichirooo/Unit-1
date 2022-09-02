@@ -18,3 +18,4 @@ print(f"Your tax is {tax} USD. Please pay as soon as you can.")
 
 ```
 
+![The photo of the result]()
