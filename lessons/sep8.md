@@ -1,4 +1,4 @@
-```
+```.py
 #First Activity
 a = int(input("enter the number"))
 b = 1
@@ -43,4 +43,4 @@ while value < 10:
     print(numbers)
     value += 1
     
-    
+```
