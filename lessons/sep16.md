@@ -25,3 +25,4 @@ else:
     print(f"Locker No{a} is color {color}")
              
 ```
+![The photo of the result](color.png)
