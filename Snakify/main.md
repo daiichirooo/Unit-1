@@ -305,8 +305,327 @@ print(b*12)
 ```
 ![](z2_19.png)
 
+## Chapter 3: Conditions: if, then, else
+
+### Is Positive
+```.py
+a = int(input())
+
+if a > 0:
+    print("YES")
+    
+else:
+    print("NO")
+```
+![](z3_1.png)
+
+### Is odd
+```.py
+a = int(input())
+
+if a % 2 == 1:
+    print("YES")
+else:
+    print("NO")
+```
+![](z3_2.png)
+
+### Is even
+```.py
+a = int(input())
+
+if a % 2 == 1:
+    print("NO")
+else:
+    print("YES")
+```
+![](z3_3.png)
+
+### Ends on seven
+```.py
+a = int(input())
+
+if a % 10 == 7:
+    print("YES")
+else:
+    print("NO")
+```
+![](z3_4.png)
+
+### Minimum of two numbers
+```.py
+a = int(input())
+b = int(input())
+
+if  a < b:
+    print(a)
+else:
+    print(b)
+```
+![](z3_5.png)
+
+### Are both odd
+```.py
+a = int(input())
+b = int(input())
+
+if a % 2 == 0 or b % 2 == 0:
+    print("NO")
+else:
+    print("YES")
+```
+![](z3_6.png)
 
 
+### At least one odd
+```.py
+a = int(input())
+b = int(input())
+
+if a % 2 == 1 or b % 2 == 1:
+    print("YES")
+else:
+    print("NO")
+```
+![](z3_7.png)
+
+
+### Exactly one odd
+```.py
+a = int(input())
+b = int(input())
+
+if a % 2 == 1 and b % 2 == 0:
+    print("YES")
+else:
+    if b % 2 == 1 and a % 2 == 0:
+        print("YES")
+    else:
+        print("NO")
+```
+![](z3_8.png)
+
+
+### Sign function
+```.py
+a = int(input())
+
+if a > 0:
+    print("1")
+elif a < 0:
+    print("-1")
+else:
+    print("0")
+```
+![](z3_9.png)
+
+
+### Numbers in ascending order
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a > b:
+    print("NO")
+elif b > c:
+    print("NO")
+else:
+    print("YES")
+```
+![](z3_10.png)
+
+### Is three digits
+```.py
+a = int(input())
+
+if a < 100:
+    print("NO")
+elif a > 999:
+    print("NO")
+else:
+    print("YES")
+```
+![](z3_11.png)
+
+### Minimum of three numbers
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+
+if b > a and c > a:
+    print(a)
+
+elif a > b and c > b:
+    print(b)
+    
+else:
+    print(c)
+```
+![](z3_12.png)
+
+### Equal numbers
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a == b == c:
+    print("3")
+elif a == b or b == c or c == a:
+    print("2")
+else:
+    print("0")
+```
+![](z3_13.png)
+
+### Rook move
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+if a == c and b == d or b == c and a == d:
+    print("NO")
+    
+elif a == c or a == d or b == c or b == d:
+    print("YES")
+```
+![](z3_14.png)
+
+### Chess board - black square
+```.py
+a = int(input())
+b = int(input())
+
+aa = a + b
+
+if aa % 2 == 0:
+    print("BLACK")
+else:
+    print("WHITE")
+```
+![](z3_15.png)
+
+
+### Chess board - same color
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+aa = a + b
+bb = c + d
+
+if aa % 2 == 0 and bb % 2 == 0:
+    print("YES")
+else:
+    if aa % 2 == 1 and bb % 2 == 1:
+        print("YES")
+    else:
+        print("NO")
+```
+![](z3_16.png)
+
+### Distance to the cloest point
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+
+x = abs(a - b)
+y = abs(a - c)
+
+if x > y:
+    print(y)
+else:
+    print(x)
+```
+![](z3_17.png)
+
+### Digits in ascending order
+```.py
+a = int(input())
+
+x = a // 100
+y = (a // 10) % 10
+z = (a % 100) % 10
+
+if x < y < z:
+    print("YES")
+else:
+    print("NO")
+```
+![](z3_18.png)
+
+### Four-digit palindrome
+```.py
+a = int(input())
+
+w = a // 1000
+x = (a // 100) % 10
+y = (a // 10) % 10
+z = (a % 100) % 10
+
+if w == z and x == y:
+    print("YES")
+else:
+    print("NO")
+```
+![](z3_19.png)
+
+### King move
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+if -2 < (a - c) <2 and -2 < (b - d) <2:
+    print("YES")
+else:
+    print("NO")
+```
+![](z3_20.png)
+
+### Bishop move
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+x = (a - c) 
+y = (b - d) 
+z = (d - b)
+
+if x == y or x == z:
+    print("YES")
+else:
+    print("NO")
+```
+![](z3_21.png)
+
+### Queen move
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+x = (a - c) 
+y = (b - d) 
+z = (d - b)
+
+if x == y or x == z or a == c or b == d:
+    print("YES")
+else:
+    print("NO")
+```
+![](z3_22.png)
 
 
 
