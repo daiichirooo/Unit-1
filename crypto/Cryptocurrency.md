@@ -11,35 +11,47 @@ Design statement: I will to design and make a ———— for a client who is �
 
 ** add a description of your coin and citation **
 
-|Group 1   |Group 2
-|----------|
-|Developer	Digital Coin		Developer	Coin
-|Alex	Bitcoin		Alek	Solana
-|Bernard	Ethereum		Mai	Dogecoin
-|Yutaro	Dogecoin		Daniela	BInance
-|Verlon	Apecoin		Kris	Bitcoin
-|Oswell	Tether		Paula	Lumens
-|Thumula	Tron		ZAven	Ethereum
-|Ainee	Mana		Jonathan	Maker
-|Lison	Solana		Kai	Avalanche
-|Sabu	Binance		Daiichiro	Flow
-|Emmy	Polkadot		Masamu	Cardano
-|Maria	Cardano		Yasmina	Zcash
-|Zelan	Cosmos		Jana	LiteCoin
-|Manahil	BinanceUSD		Lyn	Iota
-|Krish	UsdCoin		Meisa	Polkadot
-|Mayte	Cosmos
-|Pop	Ripple
-|Justify the tools/structure of your solution
+
+ Alex	Bitcoin 
+ Alek	Solana 
+ Bernard	Ethereum 
+ Mai	Dogecoin 
+ Yutaro	Dogecoin 
+ Daniela	BInance 
+ Verlon	Apecoin 
+ Kris	Bitcoin 
+ Oswell	Tether 
+ Paula	Lumens 
+ Thumula	Tron 
+ ZAven	Ethereum 
+ Ainee	Mana 
+ Jonathan	Maker 
+ Lison	Solana 
+ Kai	Avalanche 
+ Sabu	Binance 
+ Daiichiro	Flow 
+ Emmy	Polkadot 
+ Masamu	Cardano 
+ Maria	Cardano 
+ Yasmina	Zcash 
+ Zelan	Cosmos 
+ Jana	LiteCoin 
+ Manahil 
+ BinanceUSD 
+ Lyn	Iota 
+ Krish	UsdCoin 
+ Meisa	Polkadot 
+ Mayte	Cosmos 
+ Pop	Ripple 
 
 
 ### Success Criteria
-1.The electronic ledger is a text-based software (Runs in the Terminal).
-2.The electronic ledger display the basic description of the cyrptocurrency selected.
-3.The electronic ledger allows to enter, withdraw and record transactions.
-4.The electronic ledger can be opened by only client.
-5.The electronic ledger shows a graphical explaination.
-6.The electronic ledger suggests whether you spend too much money or not.
+1. The electronic ledger is a text-based software (Runs in the Terminal). 
+2. The electronic ledger display the basic description of the cyrptocurrency selected. 
+3. The electronic ledger allows to enter, withdraw and record transactions. 
+4. The electronic ledger can be opened by only client. 
+5. The electronic ledger shows a graphical explaination. 
+6. The electronic ledger suggests whether you spend too much money or not. 
 
 ## Criteria B: Design
 ### System Diagram
