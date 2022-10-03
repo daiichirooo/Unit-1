@@ -11,7 +11,7 @@ Design statement: I will design and make a electronic ledger for a client who is
 
 ** add a description of your coin and citation **
 
-Flow is a fast, decentralized, developer-friendly blockchain designed as the foundation for a new generation of games, apps, and the digital assets that power them. Flow is the only layer-one blockchain developed independently by the team that has consistently delivered superior blockchain experiences for consumers, including, CryptoKitties, Dapper Wallet, and NBA Top Shot. (coinmarketcap.2022)
+『Flow is a fast, decentralized, developer-friendly blockchain designed as the foundation for a new generation of games, apps, and the digital assets that power them. Flow is the only layer-one blockchain developed independently by the team that has consistently delivered superior blockchain experiences for consumers, including, CryptoKitties, Dapper Wallet, and NBA Top Shot.』 (coinmarketcap.2022)
 
 
 
@@ -64,3 +64,19 @@ Flow is a fast, decentralized, developer-friendly blockchain designed as the fou
 ### Record of Tasks
 Task No	Planned Action	Planned Outcome	Time estimate	Target completion date	Criterion
 1	Create system diagram	To have a clear idea of the hardware and software requirements for the proposed solution	10min	Sep 24	B
+
+
+
+| Task Number | Planned Actions | Planned Outcome | Time Estimate | Target Completion Date | Criterion |
+|-------------|-----------------|-----------------|---------------|------------------------|-----------|
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+|             |                 |                 |               |                        |           |
+
