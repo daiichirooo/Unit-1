@@ -7,9 +7,12 @@ Ms. Sato is a local trader who is interested in the emerging market of cryptocur
 Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
 
 ### Proposed Solution
-Design statement: I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take ———- to make and will be evaluated according to the criteria ———.
+Design statement: I will design and make a electronic ledger for a client who is Ms.Sato. The electronic ledger will be about recording the customers' economic activity and is constructed using the software FLOW. It will take couple of weeks to make and will be evaluated according to the criteria below.
 
 ** add a description of your coin and citation **
+
+Flow is a fast, decentralized, developer-friendly blockchain designed as the foundation for a new generation of games, apps, and the digital assets that power them. Flow is the only layer-one blockchain developed independently by the team that has consistently delivered superior blockchain experiences for consumers, including, CryptoKitties, Dapper Wallet, and NBA Top Shot. (coinmarketcap.2022)
+
 
 
  Alex	Bitcoin 
