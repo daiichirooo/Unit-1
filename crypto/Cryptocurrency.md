@@ -80,3 +80,48 @@ Task No	Planned Action	Planned Outcome	Time estimate	Target completion date	Crit
 |             |                 |                 |               |                        |           |
 |             |                 |                 |               |                        |           |
 
+## Criteria C: Development
+### Login System
+my client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a CSV file. more description of the code...
+
+```.py
+def login(user:str, password:str)->bool:
+    '''
+    Fanction for a simple user login needs db.csv
+    :param user: string
+    :param password: string
+    :return: True or False
+    '''
+    with open("crypto_projects/db.csv") as file:
+        database = file.readlines()
+
+    output=False
+    for line in database:
+        clear_line = line.strip()
+        separated_line = clear_line.split(",")
+        if user == separated_line[0] and password == separated_line[1]:
+            output = True
+
+
+    return output
+
+```
+
+my client requires a system whether the user is a new user or not.  I thought about using a register system to accomplish this requirement using the open command to work with a CSV file.
+
+```.py
+def register(newuname:str, newpassword:str):
+    '''
+    This function saves a user, password in the file
+    db.csv
+    :param uname: username a string
+    :param password: password a string
+    :return: nothing
+    '''
+
+    #Open the file in mode append:a
+    #this means, add to the end of the file
+
+    file = open("crypto_projects/db.csv", "a")
+    file.write(f"{newuname},{newpassword}\n")
+```
