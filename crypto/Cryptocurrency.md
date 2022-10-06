@@ -53,7 +53,7 @@ Design statement: I will design and make a electronic ledger for a client who is
 2. The electronic ledger display the basic description of the cyrptocurrency selected. 
 3. The electronic ledger allows to enter, withdraw and record transactions. 
 4. The electronic ledger can be opened by only client. 
-5. The electronic ledger shows a graphical explaination. 
+5. The electronic ledger can make a lot of acounts for a lot of people.
 6. The electronic ledger suggests whether you spend too much money or not. 
 
 ## Criteria B: Design
