@@ -58,19 +58,26 @@ my client requires a system to protect the private data. I thought about using a
 ```.py
 def login(user:str, password:str)->bool:
     '''
-    Fanction for a simple user login needs db.csv
+    Fanction for a simple user login needs crypto_projects/db.csv
     :param user: string
     :param password: string
     :return: True or False
     '''
+
     with open("crypto_projects/db.csv") as file:
         database = file.readlines()
 
-    output=False
+    output = False
     for line in database:
         clear_line = line.strip()
         separated_line = clear_line.split(",")
-        if user == separated_line[0] and password == separated_line[1]:
+        passwords = password
+        salt = "5gz"
+
+        dataBase_password = passwords+salt
+
+        hashed = hashlib.md5(dataBase_password.encode())
+        if user == separated_line[0] and hashed.hexdigest() == separated_line[1]:
             output = True
 
 
@@ -94,8 +101,19 @@ def register(newuname:str, newpassword:str):
     #Open the file in mode append:a
     #this means, add to the end of the file
 
+    password = newpassword
+    salt = "5gz"
+
+    dataBase_password = password+salt
+
+    hashed = hashlib.md5(dataBase_password.encode())
+
     file = open("crypto_projects/db.csv", "a")
-    file.write(f"{newuname},{newpassword}\n")
+    file.write(f"{newuname},{hashed.hexdigest()}\n")
+
+    with open (f"crypto_projects/{newuname}.csv","x") as f:
+        f.write(" Date,Value,Procedure,note,Balance\n")
+        pass
 ```
 
 ## Activate system
@@ -408,14 +426,32 @@ activate(name=uname)
 
 ## Library file(crypto_currency.py)
 ```.py
-en("crypto_projects/db.csv") as file:
+colors = ["\33[0;30m",  "\33[0;31m", "\33[0;32m", "\33[0;33m", "\33[0;34m", "\33[0;35m", "\33[0;36m", "\33[0;37m" ]
+end_code = "\033[00m"
+import hashlib
+
+def login(user:str, password:str)->bool:
+    '''
+    Fanction for a simple user login needs crypto_projects/db.csv
+    :param user: string
+    :param password: string
+    :return: True or False
+    '''
+
+    with open("crypto_projects/db.csv") as file:
         database = file.readlines()
 
     output = False
     for line in database:
         clear_line = line.strip()
         separated_line = clear_line.split(",")
-        if user == separated_line[0] and password == separated_line[1]:
+        passwords = password
+        salt = "5gz"
+
+        dataBase_password = passwords+salt
+
+        hashed = hashlib.md5(dataBase_password.encode())
+        if user == separated_line[0] and hashed.hexdigest() == separated_line[1]:
             output = True
 
 
@@ -433,8 +469,15 @@ def register(newuname:str, newpassword:str):
     #Open the file in mode append:a
     #this means, add to the end of the file
 
+    password = newpassword
+    salt = "5gz"
+
+    dataBase_password = password+salt
+
+    hashed = hashlib.md5(dataBase_password.encode())
+
     file = open("crypto_projects/db.csv", "a")
-    file.write(f"{newuname},{newpassword}\n")
+    file.write(f"{newuname},{hashed.hexdigest()}\n")
 
     with open (f"crypto_projects/{newuname}.csv","x") as f:
         f.write(" Date,Value,Procedure,note,Balance\n")
