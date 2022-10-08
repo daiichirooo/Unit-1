@@ -31,6 +31,10 @@ Design statement: I will design and make a electronic ledger for a client who is
 ## Flow Diagrams
 ### Login
 ![](fd.png)
+### Register
+![](ref.png)
+### Activate
+![](activate.png)
 ## Record of Tasks
 Task No	Planned Action	Planned Outcome	Time estimate	Target completion date	Criterion
 
