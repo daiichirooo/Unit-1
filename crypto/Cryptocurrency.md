@@ -406,7 +406,7 @@ print(f"{colors[5]}{menu}{end_code}")
 activate(name=uname)
 ```
 
-## library file(crypto_currency.py)
+## Library file(crypto_currency.py)
 ```.py
 en("crypto_projects/db.csv") as file:
         database = file.readlines()
