@@ -15,37 +15,6 @@ Design statement: I will design and make a electronic ledger for a client who is
 
 
 
- Alex	Bitcoin 
- Alek	Solana 
- Bernard	Ethereum 
- Mai	Dogecoin 
- Yutaro	Dogecoin 
- Daniela	BInance 
- Verlon	Apecoin 
- Kris	Bitcoin 
- Oswell	Tether 
- Paula	Lumens 
- Thumula	Tron 
- ZAven	Ethereum 
- Ainee	Mana 
- Jonathan	Maker 
- Lison	Solana 
- Kai	Avalanche 
- Sabu	Binance 
- Daiichiro	Flow 
- Emmy	Polkadot 
- Masamu	Cardano 
- Maria	Cardano 
- Yasmina	Zcash 
- Zelan	Cosmos 
- Jana	LiteCoin 
- Manahil 
- BinanceUSD 
- Lyn	Iota 
- Krish	UsdCoin 
- Meisa	Polkadot 
- Mayte	Cosmos 
- Pop	Ripple 
 
 
 ### Success Criteria
